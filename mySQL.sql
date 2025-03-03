@@ -14,3 +14,5 @@ CREATE TABLE attendance (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+INSERT INTO users (username, password, admin) VALUES ('admin', 'usuario', TRUE);
