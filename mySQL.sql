@@ -15,4 +15,4 @@ CREATE TABLE attendance (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-INSERT INTO users (username, password, admin) VALUES ('admin', 'usuario', TRUE);
+INSERT INTO users (username, password, admin) VALUES ('admin', '$2b$12$usuario', TRUE);
