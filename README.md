@@ -18,3 +18,12 @@ revisar android
 - crear pagina web
 ### noche
 - conectar pagina web util
+
+
+
+### cosas por hacer
+
+- configurar ubicacion comprobar con ¿??¿?sevidor¿??
+-  boton de memoria de session
+-  poder serrar sesionç
+-  base de datos en vez de un solo usuario
