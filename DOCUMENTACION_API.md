@@ -20,23 +20,10 @@ Este subproyecto contiene el código del servidor, que se encarga de:
 ## Configuración
 
 1.  **Base de Datos MySQL:**
+![imagen](https://github.com/user-attachments/assets/3be286a4-be60-4976-9692-0414b16ab0cf)
 
-    *   Crea una base de datos MySQL en PythonAnywhere.
-    *   Asegúrate de tener las siguientes tablas:
-
-        *   `usuarios`: Almacena la información de los usuarios (id, nombre, contraseña, es\_administrador).
-        *   `registros`: Almacena los registros de entrada y salida (id, usuario\_id, tipo, fecha).
-
-    *   Modifica las variables `DB_HOST`, `DB_USER`, `DB_PASSWORD`, y `DB_NAME` en los archivos `db_utils.py` y `admin.py` con tus credenciales de la base de datos.
 
 2.  **Dependencias de Python:**
-
-    *   Crea un virtual environment (opcional pero recomendado):
-
-        ```bash
-        python3 -m venv venv
-        source venv/bin/activate
-        ```
 
     *   Instala las dependencias:
 
@@ -49,7 +36,7 @@ Este subproyecto contiene el código del servidor, que se encarga de:
     *   Ve a la pestaña "Web" en tu panel de control de PythonAnywhere.
     *   Establece el "Working directory" a `/home/nickynicky23/final/api`.
     *   Modifica el archivo WSGI para que apunte a tu archivo `api_app.py` y/o `admin.py`.
-    *   Configura una URL estática para servir los archivos CSS y JavaScript:
+    *   Configura una URL estática para servir los archivos CSS:
 
         *   URL: `/static/`
         *   Directorio: `/home/nickynicky23/final/api/static`
