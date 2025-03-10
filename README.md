@@ -28,7 +28,13 @@ El proyecto se organiza en los siguientes archivos principales:
 *   [`DOCUMENTACION_WEB.md`](DOCUMENTACION_WEB.md): Documentación de la interfaz de usuario web (administración).
 
 ## Vista del desarrollador (web)
+![imagen](https://github.com/user-attachments/assets/f01d8d82-3c62-47ed-b67a-1747fcb2b3d7)
+![imagen](https://github.com/user-attachments/assets/37f637c3-4286-4fa6-9c96-4b71781c76af)
+
+
 ## Vista del cliente (android)
+![imagen](https://github.com/user-attachments/assets/b68d9bd1-ced5-48c9-a902-461109b02458) ![imagen](https://github.com/user-attachments/assets/641dee6b-f3c3-4b66-8545-4166a865036b)
+
 
 ## Autor
 
