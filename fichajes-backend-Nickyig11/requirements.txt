@@ -1,0 +1,11 @@
+# dentro del bash situate en:
+# cd /home/nickynicky23/final/api
+
+# Dentro ejecuta
+# pip3 install -r requirements.txt --user
+
+Flask
+Flask-Cors
+mysql-connector-python
+bcrypt
+Flask-WTF

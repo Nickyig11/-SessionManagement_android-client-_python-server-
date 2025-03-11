@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Administración</h1>
+        <p class="welcome-message">Bienvenido, Administrador {{ username }}!</p>
+        <div class="company-info">
+            <p>{{ empresa_nombre }}</p>
+            <p>Ubicada en: Latitud {{ ubicacion_latitud }}, Longitud {{ ubicacion_longitud }}</p>
+        </div>
+
+        <div class="logout-button">
+            <a href="{{ url_for('admin.admin_alta_usuario') }}">Alta Usuarios</a>
+            <a href="{{ url_for('admin.admin_logout') }}">Cerrar Sesión</a>
+        </div>
+
+        <div class="table-container">
+            <h2>Lista de Usuarios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Contraseña</th>
+                        <th>Es Administrador</th>
+                        <th class="actions">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for usuario in usuarios %}
+                    <tr>
+                        <td>{{ usuario['id'] }}</td>
+                        <td>{{ usuario['nombre'] }}</td>
+                        <td>{{ usuario['contrasena'] }}</td>
+                        <td>{{ usuario['es_administrador'] }}</td>
+                        <td class="actions">
+                            <a href="{{ url_for('admin.admin_modificar_usuario', usuario_id=usuario['id']) }}"><button>Modificar</button></a>
+                            <a href="{{ url_for('admin.admin_eliminar_usuario', usuario_id=usuario['id']) }}"><button class="delete">Dar de Baja</button></a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

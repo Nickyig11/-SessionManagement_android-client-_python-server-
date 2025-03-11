@@ -1,0 +1,119 @@
+/* /home/nickynicky23/final/api/static/style.css */
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Azul y rosa oscurecidos */
+    color: #ecf0f1; /* Color de texto claro para que contraste con el fondo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco con transparencia */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilos para formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+/* Estilos para botones */
+button,
+.button {
+    background-color: #6dd5ed; /* Verde azulado */
+    border: none;
+    color: #222;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+.button:hover {
+    background-color: #cddc39; /* Verde lima */
+    color: #333;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #cddc39;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco con transparencia */
+    border-radius: 10px;
+    overflow: hidden; /* Esconde bordes redondeados sobresalientes */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Bordes más claros */
+    color: #fff;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo más oscuro para encabezados */
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover más sutil */
+}
+
+/* Estilos para mensajes de error */
+.error {
+    color: #e74c3c;
+    margin-top: 10px;
+}
