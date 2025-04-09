@@ -1,4 +1,5 @@
 # API REST y Panel de Administración (Servidor Python/Flask)
+[Volver a la documentación principal](README.md)
 
 ## Descripción
 
