@@ -19,6 +19,9 @@ Este subproyecto contiene el código de la interfaz de usuario web para el panel
 *   `alta_usuario.html`: Formulario para crear nuevos usuarios.
 *   `modificar_usuario.html`: Formulario para modificar la información de un usuario existente.
 
+  ## Alta de nuevos usuarios:
+![image](https://github.com/user-attachments/assets/339e1c53-3a88-4990-b7d1-c68ecf948bfe)
+
 ## Archivos Estáticos
 
 *   `style.css`: Estilos para los htmls.
